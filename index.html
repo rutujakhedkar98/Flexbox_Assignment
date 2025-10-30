@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BOGO Offer Selection</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bogo-card">
+      <div class="card-header">
+        <h1 class="card-title">YAY! It's BOGO</h1>
+        <p class="card-subtitle">(Buy One Get One)</p>
+      </div>
+
+      <div class="options-container">
+        <!-- Option 1: 1 Unit -->
+        <label class="option-item">
+          <input type="radio" name="bogo-option" id="option1" checked />
+          <span class="radio-custom"></span>
+          <div class="option-content">
+            <div class="option-header">
+              <span class="option-title">1 Unit</span>
+              <span class="discount-badge">10% Off</span>
+            </div>
+            <div class="price-row">
+              <span class="current-price">$10.00 USD</span>
+              <span class="original-price">$24.00 USD</span>
+            </div>
+            <p class="price-description">Standard Price</p>
+          </div>
+        </label>
+
+        <!-- Option 2: 2 Units (Most Popular) -->
+        <label class="option-item">
+          <input type="radio" name="bogo-option" id="option2" />
+          <span class="radio-custom"></span>
+          <div class="option-content">
+            <span class="popular-badge">MOST POPULAR</span>
+            <div class="option-header">
+              <span class="option-title">2 Units</span>
+              <span class="discount-badge">20% Off</span>
+            </div>
+            <div class="price-row">
+              <span class="current-price">$18.00 USD</span>
+              <span class="original-price">$24.00 USD</span>
+            </div>
+            <div class="size-color-selectors">
+              <div class="selector-group">
+                <label class="selector-label">#1 Size</label>
+                <select>
+                  <option>S</option>
+                  <option>M</option>
+                  <option>L</option>
+                  <option>XL</option>
+                </select>
+              </div>
+              <div class="selector-group">
+                <label class="selector-label">#1 Colour</label>
+                <select>
+                  <option>Black</option>
+                  <option>Blue</option>
+                  <option>Red</option>
+                  <option>Green</option>
+                </select>
+              </div>
+            </div>
+            <div class="size-color-selectors">
+              <div class="selector-group">
+                <label class="selector-label">#2 Size</label>
+                <select>
+                  <option>S</option>
+                  <option>M</option>
+                  <option>L</option>
+                  <option>XL</option>
+                </select>
+              </div>
+              <div class="selector-group">
+                <label class="selector-label">#2 Colour</label>
+                <select>
+                  <option>Black</option>
+                  <option>Blue</option>
+                  <option>Red</option>
+                  <option>Green</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </label>
+
+        <!-- Option 3: 3 Units -->
+        <label class="option-item">
+          <input type="radio" name="bogo-option" id="option3" />
+          <span class="radio-custom"></span>
+          <div class="option-content">
+            <div class="option-header">
+              <span class="option-title">3 Units</span>
+              <span class="discount-badge">30% Off</span>
+            </div>
+            <div class="price-row">
+              <span class="current-price">$24.00 USD</span>
+              <span class="original-price">$24.00 USD</span>
+            </div>
+          </div>
+        </label>
+      </div>
+
+      <hr class="divider" />
+
+      <div class="delivery-info">
+        <span>🚚</span>
+        <span>Free Delivery</span>
+      </div>
+
+      <div class="total-section">
+        <span class="total-label">Total:</span>
+        <span class="total-price">$10.00 USD</span>
+      </div>
+
+      <button class="add-to-cart-btn">+ Add to Cart</button>
+
+      <p class="powered-by">© Powered by Pumper</p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
